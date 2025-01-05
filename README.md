@@ -2,6 +2,8 @@
 
 # Exploratory Data Analysis (EDA)
 
+https://github.com/ArchanaLakshminarasimman/NLP_Practice/blob/main/EDA_yelp_reviews.ipynb
+
 This project involves performing Exploratory Data Analysis (EDA) on a given dataset to uncover patterns, trends, and insights. The analysis includes data cleaning, visualization, and statistical exploration using Python libraries.
 
 ## Objective
