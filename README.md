@@ -42,3 +42,53 @@ This repository contains a Jupyter Notebook for building a text classification s
 - **TF-IDF Vectorization**: Converts text data into numerical features for machine learning.
 - **Sentiment Analysis**: Utilizes the `vaderSentiment` library for sentiment analysis.
 - **Sample Data**: Includes basic examples for demonstration purposes.
+
+# Sentiment Analysis on Drug Review Dataset
+This repository contains a project focused on sentiment analysis of drug reviews using GloVe embeddings and LSTM implemented with PyTorch.
+
+## Dataset
+The dataset used is the Drug Reviews (Druglib.com), which can be found here.
+
+## Overview
+The project uses the following key components:
+- GloVe Embedding for text representation.
+- LSTM (Long Short-Term Memory) for sentiment classification.
+- PyTorch as the framework for building and training the model.
+  
+## Key Steps
+
+- Data Loading and Preprocessing: The drug review dataset is loaded and prepared for analysis.
+- Exploratory Data Analysis (EDA): Analyze the data distribution and visualize patterns using tools like word clouds.
+- Model Building and Training: Use GloVe embeddings with LSTM to predict sentiment.
+
+# Fine-Tuning and Evaluating RoBERTa for Yelp Review Classification
+This repository contains a project focused on fine-tuning a pre-trained RoBERTa model for sentiment analysis of Yelp reviews.
+
+## Objective
+The goal is to fine-tune a RoBERTa model on the Yelp review dataset, evaluate its performance, and visualize the results. The project covers:
+
+## Data preprocessing.
+Model training and evaluation.
+Visualizations such as a confusion matrix.
+
+## Dataset
+The dataset used is the Yelp Review Dataset, which is loaded using the datasets library. Reviews are converted into binary sentiment labels:
+- Negative: Ratings 1, 2, 3.
+- Positive: Ratings 4, 5.
+
+## Key Steps
+### Dataset Loading:
+
+### Load the Yelp review dataset using the datasets library.
+Shuffle and select a subset of the dataset for experimentation.
+
+### Data Splitting:
+Create training, validation, and test sets.
+
+### Fine-Tuning RoBERTa:
+Use a pre-trained RoBERTa model.
+Fine-tune on the Yelp dataset for binary sentiment classification.
+
+### Evaluation and Visualization:
+Evaluate the model's performance on the test set.
+Visualize results using tools like a confusion matrix.
