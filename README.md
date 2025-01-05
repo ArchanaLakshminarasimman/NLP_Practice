@@ -37,6 +37,8 @@ The goal is to:
 
 # Text Classifier
 
+https://github.com/ArchanaLakshminarasimman/NLP_Practice/blob/main/Text_Classifier.ipynb
+
 This repository contains a Jupyter Notebook for building a text classification system. The project leverages libraries such as `scikit-learn` and `vaderSentiment` to process, analyze, and classify text data.
 
 ## Features
