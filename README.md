@@ -46,6 +46,9 @@ This repository contains a Jupyter Notebook for building a text classification s
 - **Sample Data**: Includes basic examples for demonstration purposes.
 
 # Sentiment Analysis on Drug Review Dataset
+
+https://github.com/ArchanaLakshminarasimman/NLP_Practice/blob/main/Glove_sentiment__analysis.ipynb
+
 This repository contains a project focused on sentiment analysis of drug reviews using GloVe embeddings and LSTM implemented with PyTorch.
 
 ## Dataset
@@ -64,6 +67,9 @@ The project uses the following key components:
 - Model Building and Training: Use GloVe embeddings with LSTM to predict sentiment.
 
 # Fine-Tuning and Evaluating RoBERTa for Yelp Review Classification
+
+https://github.com/ArchanaLakshminarasimman/NLP_Practice/blob/main/Roberta_model.ipynb
+
 This repository contains a project focused on fine-tuning a pre-trained RoBERTa model for sentiment analysis of Yelp reviews.
 
 ## Objective
