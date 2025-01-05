@@ -31,3 +31,14 @@ The goal is to:
 ### 4. Advanced Visualization
 - Correlation heatmaps to identify relationships between variables.
 - Distribution and trend analysis for continuous variables.
+
+
+# Text Classifier
+
+This repository contains a Jupyter Notebook for building a text classification system. The project leverages libraries such as `scikit-learn` and `vaderSentiment` to process, analyze, and classify text data.
+
+## Features
+
+- **TF-IDF Vectorization**: Converts text data into numerical features for machine learning.
+- **Sentiment Analysis**: Utilizes the `vaderSentiment` library for sentiment analysis.
+- **Sample Data**: Includes basic examples for demonstration purposes.
